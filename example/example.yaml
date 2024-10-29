@@ -1,0 +1,10 @@
+terminate:
+  signal: 9
+  hours: 0
+  minutes: 0
+  seconds: 10
+processes:
+  - name: Responder
+    pid: 182
+  - name: ntlmrelayx
+    pid: 8219
